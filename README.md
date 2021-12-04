@@ -59,3 +59,4 @@ Utilizar las siguientes librerias para el desarrollo de la aplicacion:
 	- [Fetch API (nativo de JS)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [MaterialUI](https://mui.com/)
 - [Material Icons (from MUI)](https://mui.com/components/material-icons/)
+- (Opcional) [React Context API](https://reactjs.org/docs/context.html)
