@@ -52,11 +52,11 @@ La aplicacion consistira de 2 paginas y un modal. Los diseños de la aplicacion 
 ## Informacion de Implementacion
 Inicializar el fake API de JSON Server con 7 clientes, y cada cliente tiene que tener al menos 2 cuentas por cobrar.
 
-Utilizar las siguientes librerias para el desarrollo de la aplicacion:
+Se recomienda utilizar las siguientes librerias para el desarrollo de la aplicacion, estas cubren las diferentes necesidades que puedan surgir:
 - [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 - Cliente HTTP: 
 	- [axios](https://axios-http.com/); ó
 	- [Fetch API (nativo de JS)](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 - [MaterialUI](https://mui.com/)
 - [Material Icons (from MUI)](https://mui.com/components/material-icons/)
-- (Opcional) [React Context API](https://reactjs.org/docs/context.html)
+- [React Context API](https://reactjs.org/docs/context.html)
