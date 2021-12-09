@@ -13,6 +13,7 @@ La REST API que alimenta al frontend esta siendo desarrollada asi que se debera 
 Los recursos del API con sus metodos HTTP estan descritos de la siguiente manera:
 
  - GET **/clientes**
+	 
 	 -  nombre: `str`. Nombre del cliente.
 	 -  tipo: `str`. Tipo de cliente juridico o fisico.
 	 -  identificacion: `int`. Numero de identificacion.
@@ -21,6 +22,7 @@ Los recursos del API con sus metodos HTTP estan descritos de la siguiente manera
 	 -  estado: `bool`. Determina si este cliente se encuentra activo.
 	 - cuentas-por-cobrar: `array<Obj<str, int>>`. Arreglo de objetos de ids de cuentas por cobrar de este cliente.
 - GET **/cuentasPorCobrar**
+	
 	-id: `int`. ID unico de una cuenta por cobrar. 
 	- cliente-identificacion: `int`. Identificacion del cliente al que esta cuenta por cobrar pertenece.
 	- cliente-nombre: `str`. Nombre del cliente al que esta cuenta por cobrar pertenece.
@@ -34,13 +36,15 @@ Los recursos del API con sus metodos HTTP estan descritos de la siguiente manera
 		- metodo-de-pago: `str`. El metodo de pago **siempre** sera efectivo.
 		- monto: `int`. Monto del abono.
 - GET **/abonos**
+	
 	- cuenta-por-cobrar-id: `int` ID unico de la cuenta por cobrar al que este abono pertenece.
-	 - id: `int`. Identificador unico del abono.
+	- id: `int`. Identificador unico del abono.
 	- metodo-de-pago: `str`. El metodo de pago **siempre** sera efectivo
 	- monto: `int`. Monto del abono
 - POST **/abonos**
+- 
 	- cuenta-por-cobrar-id: `int` ID unico de la cuenta por cobrar al que este abono pertenece. Tiene que ser un id valido de 	una cuenta por cobrar
-	 - id: `int`. Identificador unico del abono.
+	- id: `int`. Identificador unico del abono.
 	- metodo-de-pago: `str`. El metodo de pago **siempre** sera efectivo
 	- monto: `int`. Monto del abono
 
