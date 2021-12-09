@@ -56,7 +56,9 @@ La aplicacion consistira de 2 paginas y un modal. Los diseños de la aplicacion 
 ## Informacion de Implementacion
 Inicializar el fake API de JSON Server con 7 clientes, y cada cliente tiene que tener al menos 2 cuentas por cobrar.
 
-Se recomienda utilizar las siguientes librerias para el desarrollo de la aplicacion, estas cubren las diferentes necesidades que puedan surgir:
+El uso de **ReactJS** es obligatorio.
+
+Se recomienda utilizar las siguientes librerias adicionales para el desarrollo de la aplicacion, estas cubren las diferentes necesidades que puedan surgir:
 - [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
 - Cliente HTTP: 
 	- [axios](https://axios-http.com/); ó
