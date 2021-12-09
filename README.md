@@ -23,7 +23,7 @@ Los recursos del API con sus metodos HTTP estan descritos de la siguiente manera
 	 - cuentas-por-cobrar: `array<Obj<str, int>>`. Arreglo de objetos de ids de cuentas por cobrar de este cliente.
 - GET **/cuentasPorCobrar**
 	
-	-id: `int`. ID unico de una cuenta por cobrar. 
+	- id: `int`. ID unico de una cuenta por cobrar. 
 	- cliente-identificacion: `int`. Identificacion del cliente al que esta cuenta por cobrar pertenece.
 	- cliente-nombre: `str`. Nombre del cliente al que esta cuenta por cobrar pertenece.
 	- numero-factura: `int`. Numero unico de factura de la cuenta por cobrar.
