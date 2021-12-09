@@ -47,7 +47,7 @@ Los recursos del API con sus metodos HTTP estan descritos de la siguiente manera
 ## Diseño
 La aplicacion consistira de 2 paginas y un modal. Los diseños de la aplicacion final deberan ser lo mas parecido al diseño propuesto:
 
-🎨[Diseño Figma - App Cuentas por Cobrar](https://www.figma.com/file/3bongHs6ujubRLg4GKFU9d/App-Cuentas-Por-Cobrar?node-id=0%3A1)
+🎨. [Diseño Figma - App Cuentas por Cobrar](https://www.figma.com/file/3bongHs6ujubRLg4GKFU9d/App-Cuentas-Por-Cobrar?node-id=0%3A1)
 
 ## Informacion de Implementacion
 Inicializar el fake API de JSON Server con 7 clientes, y cada cliente tiene que tener al menos 2 cuentas por cobrar.
