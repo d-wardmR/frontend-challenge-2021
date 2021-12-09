@@ -1,4 +1,4 @@
-# Frontend Challenge - Winter 2021
+# Frontend 2021 Winter Challenge
 
 El proposito de este challenge es medir las habilidades y conocimientos de los principios fundamentales de React del participante.
 
